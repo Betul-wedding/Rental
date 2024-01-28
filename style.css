@@ -209,6 +209,7 @@ h3{
      background: linear-gradient(235deg,#89ff00,#00bcd4);
     
 }
+
 .layer h3{
     width: 100%;
     font-weight: 500;
@@ -220,28 +221,9 @@ h3{
     position: absolute;
     opacity: 0;
     transition: 0.5s;
-    
 }
+
 .layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-    
-}
-
-.layer h4{
-    width: 100%;
-    font-weight: 500;
-    color: #fff;
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    position: absolute;
-    opacity: 0;
-    transition: 0.5s;
-}
-
-.layer:hover h4{
     bottom: 10%;
     opacity: 1;
 }
